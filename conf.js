@@ -15,7 +15,6 @@ jsproxy_config({
     'cf': {
       label: 'cloudflare节点（不能上google）',
       lines: {
-        // 主机:权重
         [location.host]: 1,
       }
     },
