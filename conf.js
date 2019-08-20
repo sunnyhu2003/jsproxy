@@ -42,7 +42,7 @@ jsproxy_config({
    * 默认节点
    */
   node_default: 'cf',
-  // node_default: /jsproxy-demo\.\w+$/.test(location.host) ? 'us' : 'mysite',
+  // node_default: /jsproxy-demo\.\w+$/.test(location.host) ? 'us' : 'cf',
 
   /**
    * 加速节点
